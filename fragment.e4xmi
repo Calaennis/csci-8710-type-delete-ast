@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/descriptor/basic" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="__bJqcCfNEeyX07aZyrW-zA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__vlpYCfNEeyX07aZyrW-zA" featurename="descriptors" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="basic:PartDescriptor" xmi:id="_B0gHcCfOEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.partdescriptor.simpletableview-deletemethodast-1007mezzell" label="Simple Table View - Delete Method AST - 1007 Mezzell" iconURI="platform:/plugin/project-ex-1007-type-delete-ast-mezzell/icons/sample.png" contributionURI="bundleclass://project-ex-1007-type-delete-ast-mezzell/deleteast.view.Viewer">
+      <menus xsi:type="menu:PopupMenu" xmi:id="_cAu8ECfUEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.popupmenu.astpopupmenu" label="AST Popup Menu">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_c_GBwCfUEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.handledmenuitem.analyzeprogram" label="Analyze Program" command="_jHoGQCfUEeyX07aZyrW-zA"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_ficIQCfUEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.handledmenuitem.deleteprivatemethod" label="Delete Private Method" command="_D-j8gCfUEeyX07aZyrW-zA"/>
+      </menus>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__meh8CfTEeyX07aZyrW-zA" featurename="handlers" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Handler" xmi:id="_DE_QMCfUEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.handler.deletemethod" contributionURI="bundleclass://project-ex-1007-type-delete-ast-mezzell/deleteast.handler.DeleteMethodHandler" command="_D-j8gCfUEeyX07aZyrW-zA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_iDUwoCfUEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.handler.analyzeprogram" contributionURI="bundleclass://project-ex-1007-type-delete-ast-mezzell/deleteast.handler.AnalyzeProgramHandler" command="_jHoGQCfUEeyX07aZyrW-zA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_BeM4kCfUEeyX07aZyrW-zA" featurename="commands" parentElementId="org.eclipse.e4.legacy.ide.application">
+    <elements xsi:type="commands:Command" xmi:id="_D-j8gCfUEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.command.deletemethod" commandName="Delete Method"/>
+    <elements xsi:type="commands:Command" xmi:id="_jHoGQCfUEeyX07aZyrW-zA" elementId="project-ex-1007-type-delete-ast-mezzell.command.analyzeprogram" commandName="Analyze Program"/>
+  </fragments>
+</fragment:ModelFragments>
